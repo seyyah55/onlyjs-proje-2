@@ -1,0 +1,315 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&family=Noto+Sans:wght@300;400;700&family=Open+Sans:ital,wght@0,400;0,700;1,400&family=PT+Serif&family=Playfair+Display:wght@400;500;700&family=Poppins:wght@500;600;700&family=Rubik:wght@400;700&family=Space+Grotesk:wght@300;500;600;700&display=swap");
+
+*{
+  box-sizing: border-box;
+}
+
+/* İndex sayfası */
+
+.container {
+  justify-content: space-between;
+  align-items: end;
+}
+
+.navbar-expand-lg {
+  background-color: #040404;
+}
+.card {
+  border: 0;
+  font-weight: 400 !important;
+}
+
+.card-title {
+  font-family: sans-serif;
+  font-size: 3rem;
+  font-weight: 600 !important;
+  text-align: left;
+}
+
+#this {
+  color: rgb(47, 79, 128);
+}
+
+.baslik {
+  font-family: sans-serif;
+  font-size: 6rem;
+  font-weight: 700;
+    margin-left: 80px !important;
+    line-height: 60px;
+    margin: 30px 0;
+    color: rgb(47, 79, 128);
+}
+
+.text-card-1 {
+  font-size: 1.25rem;
+  font-weight: 400 !important;
+  text-align: left;
+  opacity: 0.5;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn-primary {
+  margin-right: 1.25rem;
+}
+
+.row-eart {
+  width: 100%;
+  height: 100vh;
+  background-image: url("pexels.space2.jpg");
+  background-size: cover;
+}
+
+.col-xl-5 {
+  flex-basis: 50%;
+}
+
+.container .eart {
+  width: 380px;
+  height: 380px;
+  margin-left: 60px;
+  position: relative;
+}
+
+.container .eart video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.tipografi {
+  width: 100%;
+  background-color: #fff;
+}
+
+.outer-box {
+  width: 100%;
+  height: 100vh;
+  background-image: url("astronat.jpg");
+    background-size: cover;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.inner-box {
+  margin-top: -50px;
+  line-height: normal;
+  text-align: center;
+}
+
+.blog-yazi {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  background-color: #082145;
+  padding: 30px 15px;
+}
+
+.blog-h2 {
+  font-weight: bolder;
+  font-size: calc(1.325rem + 0.9vw);
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+  color: rgb(112, 112, 152);
+}
+
+.blog-p {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: rgb(47, 79, 128);
+}
+
+.row {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-2 {
+  margin-left: 15px;
+  color: rgb(240, 240, 249);
+}
+
+.h5-title {
+  font-size: 1.25rem;
+}
+
+.rozet {
+  display: flex;
+  align-items: start;
+  padding-left: 20px;
+}
+
+.etiket {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.mavi-box {
+  background-color: #0d6efd;
+  border-radius: 0.5rem;
+  opacity: 1;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  padding: 3rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.mavi-text {
+  font-weight: bolder;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+}
+
+.mavi-p {
+  opacity: 0.5;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.mavi-sm-p {
+  opacity: 0.5;
+  font-size: 0.875em;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+/* .form-control {
+  width: 500px;
+} */
+
+.input-group-text {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+.input-group-text:hover {
+  background-color: #fff;
+  color: #212529;
+}
+
+.alt-footer {
+  background-color: #082145;
+}
+
+
+/* Hakkımızda ve İletişim sayfası */
+
+.contact-p {
+  font-size: 1.25;
+  font-weight: 400;
+}
+
+.fa-brands {
+  font-size: 3rem;
+  color: #082145;
+}
+
+.buton {
+  width: 100%;
+  font-size: 1.5rem;
+  border: 0.5px solid #0d6efd;
+  border-radius: 5px;
+  background-color:#0d6efd ;
+  padding: 0.75rem 5rem;
+}
+
+.buton-2 {
+  color: #fff;
+  text-decoration: none;
+}
+
+.container-bground {
+  width: 100%;
+  background-image: url("pexels-arkaplan.png");
+    background-size: cover;
+  padding-top: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+.container-bground2 {
+  width: 100%;
+  background-image: url("pexels-arkaplan2.jpg");
+    background-size: cover;
+  padding-top: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.fa-solid {
+  font-size: 2.25rem;
+  color: #0d6efd;
+  margin-bottom: 0.75rem;
+
+}
+
+
+
+
+
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .col-xl-5 {
+    flex-basis: 50%;
+  }
+
+  .container .eart {
+    width: 300px;
+    height: 300px;
+    margin-top: 10px;
+    position: relative;
+  }
+
+  .container .eart video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+}
+
+@media (max-width: 1200px) {
+
+  .card-body {
+    flex: 0 0 auto;
+  }
+
+  .card-title {
+    font-size: calc(1.425rem + 2.1vw);
+  }
+
+  .h5-title {
+    font-size: 1.25rem;
+  }
+
+  .etiket {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .rounded-circle {
+    margin-right: 20px;
+  }
+
+  .h-100 {
+    margin-bottom: 3.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .container-bground {
+    background-image: none;
+  }
+  
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>İletişim Sayfası</title>
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Space & Eart</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Haberler</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">Hakkımızda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="contact.html">İletişim</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Uzay
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Karadelikler</a></li>
+                <li><a class="dropdown-item" href="#">Gezegenler</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dünya
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">Karada Yaşayanlar</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Suda Yaşayanlar</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="py-3 mt-3">
+        <div class="container px-5">
+            <div class="bg-light rounded-3 py-5 px-4 px-md-5 mb-5">
+                <div class="text-center mb-5">
+                    <i class="fa-brands fa-space-awesome"></i>
+                    <h2 class="h2-yazisi fw-bolder">Bizimle iletişime geçin</h2>
+                    <p class="p-yazisi fw-normal text-muted">
+                      Sizden haber almayı çok isteriz
+                    </p>
+                </div>
+               
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-8 col-xl-6">
+                        <form id="contactForm" data-sb-form-api-token="">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="name" placeholder="Enter your name..." data-sb-validations="required" data-sb-can-submit="no">
+                                <label for="name">İsim</label>
+                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required</div>
+                              </div>
+                              <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="email" placeholder="name@example.com" data-sb-validations="required,email" data-sb-can-submit="no">
+                                <label for="email">Email adresi</label>
+                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required</div>
+                            </div>
+                              <div class="form-floating mb-3">
+                                <input type="tel" class="form-control" id="phone" placeholder="(123)456-7890" data-sb-validations="required" data-sb-can-submit="no">
+                                <label for="phone">Telefon numarası</label>
+                                <div class="invalid-feedback" data-sb-feedback="email:required">A phone number is required</div>
+                            </div>
+                              <div class="form-floating mb-3">
+                                <textarea type="text" class="form-control" id="message" style="height: 10rem;" placeholder="Enter your message here..." data-sb-validations="required" data-sb-can-submit="no"></textarea>
+                                <label for="message">Mesaj</label>
+                                <div class="invalid-feedback" data-sb-feedback="email:required">A message is required</div>
+                            </div>
+                            <div class="buton"><a class="buton-2" href="#">Submit</a></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+        <div class="container container-bground2 py-3 ">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-sm-6 col-lg-3 px-5 py-5 text-start">
+                    <i class="fa-solid fa-folder"></i>
+                    <h2>Dosyalar</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="col-md-6 col-lg-3 px-5 py-5 text-start">
+                    <i class="fa-solid fa-gear"></i>
+                    <h2>Ayarlar</h2>
+                    <p>Lorem ipsum dolor sit Lorem, ipsum dolor..</p>
+                </div>
+                <div class="col-md-6 col-lg-3 px-5 py-5 text-start">
+                    <i class="fa-solid fa-font-awesome"></i>
+                    <h2>Planlar</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur..</p>
+                </div>
+                <div class="col-md-6 col-lg-3 px-5 py-5 text-start">
+                    <i class="fa-solid fa-shuttle-space"></i>
+                    <h2>Güvenlik</h2>
+                    <p>Lorem, ipsum dolor amet.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="alt-footer p-3">
+      <div class="container">
+        <div
+          class="row justify-content-between align-items-center flex-column flex-sm-row"
+        >
+          <div class="col-auto text-white">
+            <p>Copyright © Hamza PALA 2023</p>
+          </div>
+          <div class="col-auto d-flex">
+            <a class="link-light small" href="#">Privacy</a>
+            <span class="text-white mx-1">·</span>
+            <a class="link-light small" href="#">Terms</a>
+            <span class="text-white mx-1">·</span>
+            <a class="link-light small" href="#">Contact</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
